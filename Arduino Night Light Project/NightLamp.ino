@@ -1,9 +1,12 @@
+  // 'ldr' stands for Light-Dependant-Resistor as used in this project.
+
+  // initializing the ldr pin's number.
   int ldr_PIN = 0;
   
   // variable to store the ldr value.
   int light;
   
-  // variables to store LED's.
+  // variables to store the pin numbers of the LED's.
   int red_LED = 9;
   int green_LED = 10;
   int blue_LED = 11;
@@ -15,7 +18,7 @@
 
    Serial.begin(9600);
 
-  
+  // declaring pins as output and setting the light effectiveness.
   pinMode(red_LED, OUTPUT);
   pinMode(green_LED, OUTPUT);
   pinMode(blue_LED, OUTPUT);
