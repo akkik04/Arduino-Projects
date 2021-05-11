@@ -30,7 +30,7 @@ void loop() {
   // creating an if-statement to make the LED flash and buzzer beep when the serial monitor reads values from the water sensor.
   if (Water_value > 300){
 
-    // adding features to the LED and buzzer.
+    // adding features to the LED and buzzer such as, the sound of the buzzer, brightness of LED, and adding a delay.
     digitalWrite(LED, HIGH);
     tone(buzzer, 800);
     delay(200);
