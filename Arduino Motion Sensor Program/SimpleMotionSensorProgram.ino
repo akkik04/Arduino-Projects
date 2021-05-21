@@ -16,6 +16,7 @@ void setup() {
 
 }
 
+// MAIN LOOP.
 void loop() {
 
   // tying the 'sensor_value' variable to the value read from the sensor.
